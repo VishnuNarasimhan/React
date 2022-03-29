@@ -14,7 +14,23 @@
     <div id="root"></div>
     <script type="text/babel">
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+    let App = () => {
+      return (
+        <div>
+              <div id="Yellow">
+                <div className="Yellow-1"></div>
+                <div className="Yellow-2"></div>
+              </div>
+              <div id="Red"></div>
+              <div id="BlueContainer">
+                <div  className="Blue"></div>
+                <div  className="Blue"></div>
+                <div  className="Blue"></div>
+              </div>    
+        </div>);
+    }
+    
+ ReactDOM.render(<div><App /></div>,document.getElementById('root'));
 
 </script>
 <!--
