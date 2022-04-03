@@ -1,0 +1,151 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+}
+/* ---------------------------------------Header------------------------ */
+.header{
+    border: 1px solid lightgray;
+    background-color: rgb(231, 227, 227);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 1%;
+    margin-top:3%;
+    border-radius: 5px;
+}
+
+.header:hover,.order-info:hover,.custome-info:hover,.product-list{
+    cursor: pointer;
+}
+
+.left-arrow{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(152, 143, 143);
+}
+
+.para-content p:first-child{
+    font-weight: 700;
+}
+.para-content p:last-child{
+    font-size: 15px;
+    margin-left: 5px;
+    color:grey
+}
+button{
+    padding:10px 25px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    font-weight:700;
+    border-radius: 5px;
+}
+
+button:hover{
+    color:rgb(0, 0, 0);
+    background-color: white;
+}
+/* ------------------MainOne---------------------- */
+
+.custome-info{
+    border: 1px solid lightgray;
+    margin-top: 3%;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.Appointment,.email,.phone{
+    display: flex
+}
+
+.custome-info p:first-child{
+    font-weight: 700;
+}
+
+.custome-info p:last-child{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* ------------------------MainSecond---------------------------- */
+
+.order-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    background-color: rgb(231, 227, 227);
+    margin-top: 3%;
+    padding: 1%;
+    height: 15vh;
+    border-radius: 5px;
+}
+
+
+.time{
+    display: flex;
+}
+.order-info p:first-child{
+    margin-bottom:15px;
+    font-weight: 700;
+}
+
+.timeDate p:last-child{
+    margin-top: 1px;
+    margin-left: 5px;
+    font-size: small;
+    color:grey
+}
+
+
+
+/* ----------------------------Footer--------------------------- */
+
+.product-list{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 5%;
+    padding:1%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.check-box{
+    font-size: 40px;
+    color: orange;
+}
+
+img{
+    width: 7%;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+
+.para{
+    margin-bottom: 4%;
+    margin-left: 2%;
+}
+
+.para p:first-child{
+    font-weight: 700;
+}
+
+.para p:last-child{
+    color:grey
+}
+
+.right-arrow{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 50%;
+    color: rgb(152, 143, 143);
+}
