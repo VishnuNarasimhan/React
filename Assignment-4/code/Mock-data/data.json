@@ -1,0 +1,29 @@
+{
+    "user":
+            [
+            {"name":"Siva",
+            "location":"Bengaluru",
+            "likes":64,
+            "description": "Atlast the Game is available for PC",
+            "PostImage": "https://www.gamingscan.com/wp-content/uploads/2020/09/Assassins-Creed-Valhalla-1.jpg",
+            "date": "new Date()"
+            },
+  
+            {"name":"Neeraj",
+            "location":"Pune",
+            "likes":30,
+            "description": "The Witcher Season-2",
+            "PostImage": "https://www.gamespot.com/a/uploads/screen_kubrick/171/1712892/3784699-the-witcher-season-2-latest-news-february-2020.jpg",
+            "date": "new Date()"
+            },
+  
+            {"name":"Rahul",
+            "location":"Hyderabad",
+            "likes":30,
+            "description": "Batman 🔥",
+            "PostImage": "https://www.denofgeek.com/wp-content/uploads/2021/10/the-batman.jpg?resize=768%2C432",
+            "date": "new Date()"
+            }
+
+            ]
+  }
